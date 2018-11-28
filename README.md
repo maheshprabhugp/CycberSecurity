@@ -9,7 +9,9 @@ Exclusions:
 ---------------------------------------------------------------------------------------------------------------------------------------
 1. I haven't used Lexical parsing to validate syntax. I also didn't tokenize the input JSON file by reading character by character. 
 Hence for example, below line will not be processed sucessfully if there is '\n' in middle even though its grammatically correct.
-                  VALID:
+                  
+				  
+				  VALID:
                     "friends": ["Joe", {"firstName": "Sue","lastName": "Jones"}]
 					
 					
