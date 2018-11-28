@@ -11,6 +11,8 @@ Exclusions:
 Hence for example, below line will not be processed sucessfully if there is '\n' in middle even though its grammatically correct.
                   VALID:
                     "friends": ["Joe", {"firstName": "Sue","lastName": "Jones"}]
+					
+					
                   INVALID:
                     "friends": ["Joe", {
                     "firstName": "Sue","lastName": "Jones"}]
